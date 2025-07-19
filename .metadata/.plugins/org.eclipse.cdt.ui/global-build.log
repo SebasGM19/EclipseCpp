@@ -1,0 +1,94 @@
+16:09:01 **** Rebuild of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\main.o" "..\\Src\\main.cpp" 
+..\Src\main.cpp:4:17: fatal error: I2C.h: No such file or directory
+ #include "I2C.h"
+                 ^
+compilation terminated.
+16:09:15 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\I2C.o" "..\\Src\\I2C.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\main.o" "..\\Src\\main.cpp" 
+..\Src\main.cpp:4:17: fatal error: I2C.h: No such file or directory
+ #include "I2C.h"
+                 ^
+compilation terminated.
+16:09:34 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\main.o" "..\\Src\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\I2C.o" "..\\Src\\I2C.cpp" 
+g++ -o 001_class.exe "Src\\I2C.o" "Src\\main.o" 
+Info: Nothing to build for 001_class
+16:32:25 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\main.o" "..\\Src\\main.cpp" 
+g++ -o 001_class.exe "Src\\I2C.o" "Src\\main.o" 
+Info: Nothing to build for 001_class
+Info: Nothing to build for 001_class
+Info: Nothing to build for 001_class
+16:36:19 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\I2C.o" "..\\Src\\I2C.cpp" 
+..\Src\I2C.cpp: In member function 'uint32_t I2C::I2C_Read(uint8_t, uint8_t*)':
+..\Src\I2C.cpp:20:52: error: invalid operands of types 'const char*' and 'const char [2]' to binary 'operator+'
+     std::cout<<"alternativa: " + this->alternativa +"\n"<<std::endl;
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+16:37:00 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\I2C.o" "..\\Src\\I2C.cpp" 
+..\Src\I2C.cpp: In member function 'uint32_t I2C::I2C_Read(uint8_t, uint8_t*)':
+..\Src\I2C.cpp:20:52: error: invalid operands of types 'const char*' and 'const char [2]' to binary 'operator+'
+     std::cout<<"alternativa: " + this->alternativa +"\n"<<std::endl;
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+16:38:48 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\main.o" "..\\Src\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\I2C.o" "..\\Src\\I2C.cpp" 
+g++ -o 001_class.exe "Src\\I2C.o" "Src\\main.o" 
+16:38:53 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\I2C.o" "..\\Src\\I2C.cpp" 
+g++ -o 001_class.exe "Src\\I2C.o" "Src\\main.o" 
+Info: Nothing to build for 001_class
+16:39:13 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\I2C.o" "..\\Src\\I2C.cpp" 
+g++ -o 001_class.exe "Src\\I2C.o" "Src\\main.o" 
+Info: Nothing to build for 001_class
+16:40:19 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\I2C.o" "..\\Src\\I2C.cpp" 
+..\Src\I2C.cpp:1:19: fatal error: I2C.hpp: No such file or directory
+ #include "I2C.hpp"
+                   ^
+compilation terminated.
+16:40:22 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\main.o" "..\\Src\\main.cpp" 
+..\Src\main.cpp:4:19: fatal error: I2C.hpp: No such file or directory
+ #include "I2C.hpp"
+                   ^
+compilation terminated.
+16:40:32 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\main.o" "..\\Src\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\I2C.o" "..\\Src\\I2C.cpp" 
+g++ -o 001_class.exe "Src\\I2C.o" "Src\\main.o" 
+16:40:59 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Users\\sebas\\Desktop\\eclipse\\Proyectos C++\\001_class\\Inc" -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\main.o" "..\\Src\\main.cpp" 
+g++ "-ID:\\Users\\sebas\\Desktop\\eclipse\\Proyectos C++\\001_class\\Inc" -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\I2C.o" "..\\Src\\I2C.cpp" 
+g++ -o 001_class.exe "Src\\I2C.o" "Src\\main.o" 
+Info: Nothing to build for 001_class
+Info: Nothing to build for 001_class
+Info: Nothing to build for 001_class
+16:42:25 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Users\\sebas\\Desktop\\eclipse\\Proyectos C++\\001_class\\Inc" -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\I2C.o" "..\\Src\\I2C.cpp" 
+g++ -o 001_class.exe "Src\\I2C.o" "Src\\main.o" 
+Info: Nothing to build for 001_class
+Info: Nothing to build for 001_class
+16:43:44 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Users\\sebas\\Desktop\\eclipse\\Proyectos C++\\001_class\\Inc" -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\main.o" "..\\Src\\main.cpp" 
+g++ -o 001_class.exe "Src\\I2C.o" "Src\\main.o" 

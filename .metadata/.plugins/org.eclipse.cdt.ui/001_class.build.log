@@ -1,0 +1,7 @@
+16:43:44 **** Incremental Build of configuration Debug for project 001_class ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Users\\sebas\\Desktop\\eclipse\\Proyectos C++\\001_class\\Inc" -O0 -g3 -Wall -c -fmessage-length=0 -o "Src\\main.o" "..\\Src\\main.cpp" 
+g++ -o 001_class.exe "Src\\I2C.o" "Src\\main.o" 
+
+16:43:45 Build Finished. 0 errors, 0 warnings. (took 582ms)
+
